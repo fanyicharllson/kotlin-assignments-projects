@@ -1,10 +1,9 @@
-````
 # Kotlin Assignments & Projects
 
 **Course:** SE 3242 – Android Application Development  
 **Institution:** ICT University, Cameroon  
 **Student:** Fanyi Charllson  
-**Collaborator:** Adrien Tello
+**Collaborator:** Adrien Tello  
 
 ---
 
