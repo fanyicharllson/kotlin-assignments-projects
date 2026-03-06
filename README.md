@@ -16,8 +16,8 @@ Intermediate Kotlin practice exercises.
 ### 4. Kotlin Basics Exercise Three
 Advanced Kotlin concepts.
 
-### 5. ICTU Exchange
-Exchange project developed as part of the ICTU program.
+### 5. ICTU Exchange(CA- Project)
+Exchange project developed as part of the ICTU program(Android Application development).
 
 ---
 
