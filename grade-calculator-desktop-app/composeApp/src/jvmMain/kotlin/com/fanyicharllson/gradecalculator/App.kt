@@ -67,7 +67,7 @@ fun App(viewModel: AppViewModel = viewModel { AppViewModel() }) {
 
 
 @Composable
-private fun LoadingScreen(message: String = "Calculating grades...") {
+private fun LoadingScreen(message: String = "Calculating grades please wait...") {
     Box(
         modifier = Modifier.fillMaxSize().background(DarkBg),
         contentAlignment = Alignment.Center
