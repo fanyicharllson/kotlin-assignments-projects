@@ -1,4 +1,4 @@
-# ICTU-Ex: Smart Student Marketplace 🎓📱
+# ICTU-Ex: Smart Student Marketplace - CA Project 🎓📱
 
 **ICTU-Ex** is a secure, sensor-driven Android marketplace built exclusively for students of **The ICT University (ICTU), Cameroon**. The platform allows students to buy, sell, or swap academic resources — textbooks, electronics, hostel gear — within a trusted campus community.
 
