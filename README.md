@@ -4,7 +4,7 @@
 **Course:** SE 3242 – Android Application Development  
 **Institution:** ICT University, Cameroon  
 **Student:** Fanyi Charllson  
-**Collaborator:** Adrien Tello  
+**Collaborator:** Adrien Tello
 
 ---
 
@@ -59,11 +59,11 @@ This project demonstrates how Kotlin can be used to build **real-world desktop a
 
 ---
 
-# 2. Kotlin Basics – Exercise One
+## 2. Kotlin Basics – Exercise One
 
-**Topic:** Lambdas & Higher-Order Functions  
+**Topic:** Lambdas & Higher-Order Functions
 
-## Objective
+### Objective
 
 Implement a higher-order function called `processList` that accepts:
 
@@ -74,107 +74,97 @@ The function returns only the elements that satisfy the condition.
 
 ---
 
-## Concepts Demonstrated
+### Concepts Demonstrated
 
-### Higher-Order Functions
+#### Higher-Order Functions
 
 A higher-order function is a function that takes another function as a parameter.
-
 ```kotlin
 fun processList(list: List<Int>, predicate: (Int) -> Boolean): List<Int>
-````
+```
 
-### Lambda Expressions
+#### Lambda Expressions
 
 Lambda expressions allow functions to be passed as arguments.
-
-Example:
-
 ```kotlin
 processList(nums) { it % 2 == 0 }
 ```
 
-### Kotlin `filter`
+#### Kotlin `filter`
 
 Internally this logic behaves similarly to Kotlin's built-in `filter` function.
 
 ---
 
-## Example
+### Example
 
 Input list:
-
 ```
 [1, 2, 3, 4, 5, 6]
 ```
 
 Predicate:
-
 ```
 it % 2 == 0
 ```
 
 Output:
-
 ```
 [2, 4, 6]
 ```
 
 ---
 
-## Key Takeaway
+### Key Takeaway
 
 This exercise demonstrates how **higher-order functions and lambdas enable flexible and reusable code in Kotlin.**
 
 ---
 
-# 3. Kotlin Basics – Exercise Two
+## 3. Kotlin Basics – Exercise Two
 
 **Topic:** Collections & Functional Transformations
 
-## Objective
+### Objective
 
 Transform a list of strings into a Map where:
 
-* the **key** is the word
-* the **value** is the length of the word
+- the **key** is the word
+- the **value** is the length of the word
 
 Then print only entries where the length is greater than **4**.
 
 ---
 
-## Concepts Demonstrated
+### Concepts Demonstrated
 
-### associateWith()
+#### associateWith()
 
 Converts a list into a map where each element becomes a key.
-
 ```kotlin
 words.associateWith { it.length }
 ```
 
 Example result:
 
-| Word   | Length |
-| ------ | ------ |
-| apple  | 5      |
-| cat    | 3      |
-| banana | 6      |
+| Word    | Length |
+| ------- | ------ |
+| apple   | 5      |
+| cat     | 3      |
+| banana  | 6      |
 
 ---
 
-### Map Filtering
+#### Map Filtering
 
 Filtering map entries using Kotlin's `filter`.
-
 ```kotlin
 filter { it.value > 4 }
 ```
 
 ---
 
-## Expected Output
-
+### Expected Output
 ```
 apple has length 5
 banana has length 6
@@ -183,32 +173,30 @@ elephant has length 8
 
 ---
 
-## Key Takeaway
+### Key Takeaway
 
 Kotlin collections provide powerful transformation functions that make data processing concise and expressive.
 
 ---
 
-# 4. Kotlin Basics – Exercise Three
+## 4. Kotlin Basics – Exercise Three
 
 **Topic:** Data Classes & Collection Processing
 
-## Objective
+### Objective
 
 Calculate the **average age** of people whose names start with **A or B** from a list of `Person` objects.
 
 ---
 
-## Data Model
-
+### Data Model
 ```kotlin
 data class Person(val name: String, val age: Int)
 ```
 
 ---
 
-## Processing Pipeline
-
+### Processing Pipeline
 ```
 Start list
    ↓
@@ -223,8 +211,7 @@ Format output
 
 ---
 
-## Example Data
-
+### Example Data
 ```
 Alice/25
 Bob/30
@@ -234,67 +221,64 @@ Ben/28
 ```
 
 Filtered:
-
 ```
 Alice, Bob, Anna, Ben
 ```
 
 Average age:
-
 ```
 26.3
 ```
 
 ---
 
-## Key Takeaway
+### Key Takeaway
 
 This exercise demonstrates how **Kotlin's collection operations (`filter`, `map`, `average`) enable clean and readable data processing pipelines.**
 
 ---
 
-# 5. ICTU Exchange – Course Project
+## 5. ICTU Exchange – Course Project
 
-## Overview
+### Overview
 
 **ICTU Exchange** is a conceptual Android marketplace designed specifically for students of **The ICT University, Cameroon**.
 
 The platform enables students to:
 
-* Buy and sell academic resources
-* Exchange electronics and study materials
-* Connect within a trusted campus marketplace
+- Buy and sell academic resources
+- Exchange electronics and study materials
+- Connect within a trusted campus marketplace
 
 ---
 
-## Problem Addressed
+### Problem Addressed
 
 Students often struggle with:
 
-* High cost of academic materials
-* Limited access to reliable online marketplaces
-* Poor internet connectivity
+- High cost of academic materials
+- Limited access to reliable online marketplaces
+- Poor internet connectivity
 
 ---
 
-## Solution
+### Solution
 
 ICTU Exchange introduces:
 
-* A **student-only digital marketplace**
-* **Offline-first application design**
-* Integration with device sensors for enhanced functionality
+- A **student-only digital marketplace**
+- **Offline-first application design**
+- Integration with device sensors for enhanced functionality
 
 ---
 
-## Project Goal
+### Project Goal
 
 The goal of this project is to explore how Android applications can solve **real campus problems using modern mobile development practices.**
 
 ---
 
 # Repository Structure
-
 ```
 kotlin-assignments-projects
 │
@@ -313,9 +297,9 @@ Each folder contains the implementation for a specific assignment or project.
 
 This repository follows a collaborative development workflow using:
 
-* Git branches
-* Pull Requests
-* Code Reviews
+- Git branches
+- Pull Requests
+- Code Reviews
 
 Each feature or assignment is developed in a separate branch and merged through Pull Requests after review.
 
@@ -325,10 +309,10 @@ This workflow simulates **real-world software development practices used in prof
 
 # Authors
 
-**Fanyi Charllson**
+**Fanyi Charllson**  
 Software Developer | Android & Backend Development
 
-**Adrien Tello**
+**Adrien Tello**  
 Collaborator – Code Review & Project Contributions
 
 ---
@@ -336,5 +320,3 @@ Collaborator – Code Review & Project Contributions
 # License
 
 This repository is intended for **educational purposes as part of coursework at ICT University**.
-
-````
