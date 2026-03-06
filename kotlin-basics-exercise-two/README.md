@@ -2,7 +2,7 @@
 
 **Course:** SE 3242 – Android Application Development  
 **Week:** 2 | **Topic:** Collections & Lambdas  
-**Students:** Fanyi Charllson & Adrien Tello
+**Students:** Fanyi Charllson Fanyi  & Adrien Tello
 
 ---
 
